@@ -14,5 +14,4 @@ BEG:
     INT 21H;back to dos
 CODE ENDS
 END BEG
-hello
-567
+
