@@ -4,7 +4,7 @@ include \masm32\include\masm32rt.inc
 
 a db "xinchao",0
 b db "bye",0
-n dd 2
+n dd 3
 .code
 
 
@@ -24,12 +24,14 @@ dec ecx
 jnz _loop  
 mov esp, ebp
 pop ebp
+ret
 memcpy endp 
 
 main:
 push n
-push offset b
 push offset a
+push offset b
 call memcpy
+print offset a
 exit
 end main
