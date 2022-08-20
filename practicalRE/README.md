@@ -1,1 +1,1 @@
-masm
+masm32
