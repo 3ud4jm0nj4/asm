@@ -22,6 +22,6 @@ movzx eax,b
 push eax
 push offset a 
 call memset
-print offset a ;3ud4jm0nj4
+print offset a
 exit
 end main
