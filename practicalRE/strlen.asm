@@ -2,7 +2,7 @@ include \masm32\include\masm32rt.inc
 
 
 .data
-    a db "hello",0
+    a db "gooodbye",0
 .code
 strlen proc
 push ebp
